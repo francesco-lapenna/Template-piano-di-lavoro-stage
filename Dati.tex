@@ -42,42 +42,53 @@
 \newcommand{\prospettoSettimanale}{
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
-    \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+     \begin{itemize}
+        \item \textbf{Prima Settimana (40 ore)}
         \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item Incontro per discutere i requisiti e le richieste relativi al sistema da sviluppare;
+            \item Formazione sulle tecnologie adottate, inclusa la piattaforma OpenVLC e le schede BeagleBone Black.
+            \item Studio dello standard IEEE 802.15.7 per le comunicazioni ottiche wireless a corto raggio;
+            \item Studio di esempi già esistenti di autenticazione tramite luce visibile;
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Seconda Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Configurazione iniziale delle schede BeagleBone Black per la comunicazione tramite luce visibile.
+            \item Analisi dei requisiti funzionali e non funzionali del modulo di autenticazione;
         \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Terza Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Progettazione dell'architettura del modulo di autenticazione, definendo i componenti principali e le loro interazioni;
+            \item Documentazione delle scelte progettuali effettuate;
+            \item Inizio dello sviluppo del modulo di autenticazione sulla piattaforma OpenVLC.
         \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quarta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Continuazione dello sviluppo del modulo di autenticazione;
+            \item Implementazione delle funzionalità principali del modulo;
+            \item Test preliminari per verificare il corretto funzionamento delle funzionalità implementate.
         \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quinta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Continuazione dello sviluppo del modulo di autenticazione;
+            \item Implementazione di eventuali funzionalità aggiuntive richieste;
+            \item Test approfonditi per verificare la sicurezza e la robustezza del sistema.
         \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Sesta Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Validazione del modulo sviluppato attraverso scenari realistici;
+            \item Analisi dei risultati dei test e risoluzione di eventuali criticità;
+            \item Revisione della documentazione tecnica relativa al modulo.
         \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Settima Settimana (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Preparazione della documentazione finale, comprensiva di risultati ottenuti e criticità riscontrate;
+            \item Revisione del lavoro svolto con il tutor aziendale e il tutor interno;
+            \item Eventuali miglioramenti o modifiche richieste.
         \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
+        \item \textbf{Ottava Settimana - Conclusione (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Consegna della documentazione finale;
+            \item Presentazione del lavoro svolto ai responsabili del progetto;
         \end{itemize}
     \end{itemize}
 }
@@ -86,19 +97,21 @@
 \newcommand{\totaleOre}{320}
 
 \newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
-	 
+    \item \underline{\textit{O01}}: Configurare le schede BeagleBone Black per consentire la comunicazione tramite luce visibile.
+    \item \underline{\textit{O02}}: Studiare lo standard IEEE 802.15.7 per comprendere i requisiti tecnici e le specifiche.
+    \item \underline{\textit{O03}}: Progettare e implementare il modulo di autenticazione sulla piattaforma OpenVLC.
+    \item \underline{\textit{O04}}: Testare e validare il modulo sviluppato attraverso scenari realistici.
+    \item \underline{\textit{O05}}: Documentare dettagliatamente il lavoro svolto e i risultati ottenuti.
 }
 
 \newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
+    \item \underline{\textit{D01}}: Ottimizzare le prestazioni del modulo di autenticazione per garantire compatibilità e prestazioni ottimali.
+    \item \underline{\textit{D02}}: Implementare funzionalità aggiuntive per migliorare la sicurezza e la robustezza del sistema.
+    \item \underline{\textit{D03}}: Analizzare i risultati dei test per identificare e risolvere eventuali criticità.
 }
 
 \newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
+    \item \underline{\textit{F01}}: Approfondire ulteriori aspetti legati all'ottimizzazione delle prestazioni del modulo.
+    \item \underline{\textit{F02}}: Integrare nuove funzionalità innovative per estendere le capacità del sistema.
+    \item \underline{\textit{F03}}: Esplorare possibili sviluppi futuri del progetto, come l'integrazione con altre tecnologie di comunicazione.
 }
